@@ -72,7 +72,7 @@ const Navbar = () => {
   }, [isMenuOpen]);
 
   return (
-    <header className={`fixed top-0 left-0 w-full px-4 md:px-12 py-4 z-30 transition-all duration-300 ease-in-out ${scroll ? 'bg-black shadow-lg' : 'bg-transparent'}`}>
+    <header className={`fixed top-0 left-0 w-full px-4 md:px-12 py-4 z-30 transition-all duration-300 ease-in-out ${scroll ? 'bg-red-400 shadow-lg' : 'bg-transparent'}`}>
       <div className="container mx-auto flex justify-between items-center">
         <img src={logo} alt="Logo" className="w-12 z-50" />
         <nav className="flex items-center">
@@ -85,7 +85,7 @@ const Navbar = () => {
           </button>
           <ul className={`
             md:flex md:static absolute top-full left-0 w-full
-            md:bg-transparent bg-black bg-opacity-90 md:bg-opacity-100
+            md:bg-transparent bg-red-400 bg-opacity-90 md:bg-opacity-100
             transition-all duration-300 ease-in-out
             ${isMenuOpen ? 'translate-y-0 opacity-100 visible' : '-translate-y-full opacity-0 invisible md:translate-y-0 md:opacity-100 md:visible'}
             md:space-x-6 space-y-4 md:space-y-0

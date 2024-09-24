@@ -16,7 +16,7 @@ function AnimeModal({selectedAnime, handleCloseModal}) {
           <strong>Status:</strong> {selectedAnime.status}
         </p>
         <div className="flex justify-end">
-          <button onClick={handleCloseModal} className="bg-red-500 text-white font-bold py-2 px-4 rounded">
+          <button onClick={handleCloseModal} className="bg-red-500 text-white font-bold py-2 px-4 rounded hover:bg-red-700 active:scale-75 transition-all">
             Tutup
           </button>
         </div>

@@ -4,6 +4,10 @@ import About from "./componens/About"
 import Anime from "./componens/Anime"
 import ContactMe from "./componens/Contact"
 import Footer from "./componens/Footer"
+
+import Reveal from "reveal.js"
+import 'reveal.js/dist/reveal.css';
+
 function App() {
   return (
     <>

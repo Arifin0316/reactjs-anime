@@ -96,7 +96,7 @@ const ContactMe = () => {
             <div className="bg-white p-8 rounded-lg shadow-lg max-w-lg w-full relative">
                 <h2 className="text-2xl font-bold mb-4 "> Berhasil</h2>
                 <BsCheckCircleFill className='items-center w-6 absolute top-9 left-36 text-green-600'/>
-              <p className="mb-2">Terima kasih, {formData.name}! Pesan Anda telah berhasil terkirim.</p>
+              <p className="mb-2">Terima kasih, {formData.name}! terima kasi sudah memberikan masukan.</p>
               <div className="flex justify-end">
                 <button onClick={handleCloseModal} className="bg-red-500 text-white font-bold py-2 px-4 rounded hover:bg-red-600 transition duration-150 ease-in-out">
                   Tutup
