@@ -57,7 +57,7 @@ const Home = () => {
   };
 
   return (
-    <section id="home">
+    <section id="home" className='overflow-hidden'>
       <div className="slider h-screen w-screen overflow-hidden relative">
         <div className="list relative w-full h-full">
           <div key={currentCharacter.id} className={`item absolute inset-0 transition-all duration-500 ${direction === 'next' ? 'animate-slideInNext' : 'animate-slideInPrev'}`}>
