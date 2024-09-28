@@ -75,7 +75,7 @@ const Home = () => {
             </div>
           </div>
         </div>
-        <div className="navigation absolute bottom-1/4 left-16 flex gap-4">
+        <div className="navigation absolute bottom-20 left-16 flex gap-6">
           <button className="text-white bg-red-500 rounded-full p-3 hover:bg-red-600 transition-colors duration-300 z-20" onClick={handlePrev} aria-label="Previous character">
             <FaArrowLeft className="w-6 h-6" />
           </button>
